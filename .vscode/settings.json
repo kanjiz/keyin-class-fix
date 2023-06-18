@@ -1,0 +1,12 @@
+{
+    // ソースコードを保存すると自動的にコードフォーマットとインポートの整理を行う
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    // Gradleビルドファイルが変更された場合に自動的に更新する
+    "java.configuration.updateBuildConfiguration": "automatic",
+    // GoogleのJavaコーディングスタイルに従ってコードをフォーマットする
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    "java.format.settings.profile": "GoogleStyle"
+}
