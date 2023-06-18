@@ -16,8 +16,8 @@ dependencies {
     // Use JUnit Jupiter API for testing.
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.3")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.3")
-    // Use Hamcrest matcher library for a more fluent assertion syntax.
-    testImplementation("org.hamcrest:hamcrest:2.2")
+    // Use Truth assertion library for a more fluent assertion syntax.
+    testImplementation("com.google.truth:truth:1.1.4")
 }
 
 tasks.test {
