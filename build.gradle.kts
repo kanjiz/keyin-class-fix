@@ -6,6 +6,10 @@
  */
 plugins {
     java
+    checkstyle
+}
+checkstyle {
+    toolVersion = "10.12.0"
 }
 
 repositories {
